@@ -1,0 +1,34 @@
+body {
+    font-family: Comic Sans MS,  sans-serif; /* La famiglia del font */
+    font-size: 11px; /* La dimensione del font principale nei tag <p></p> */
+    background-color: #5c5c55; /* Il colore dello sfondo della pagina web */
+    color: #ffee00; /* Il colore del testo */ 
+}
+h1 {
+    color: #ff7700; /* Il colore dell'intestazione */
+    font-size: 24px; /* La dimensione del font dell'intestazione */
+    font-family: Impact, sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+h2 {
+    color: #ffffff; /* Il colore dell'intestazione */
+    font-size: 24px; /* La dimensione del font dell'intestazione */
+    font-family: Times New Roman, sans-serif; /* La famiglia del font usata nell'intestazione */
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(255, 187, 0);
+    }
+
+    50% {
+      color: rgb(255, 136, 0);
+    }
+
+    100% {
+      color: rgb(255, 119, 0);
+    }
+  }
+
+  h1:hover {
+    animation: color-change 3s infinite;
+  }
